@@ -1,0 +1,6 @@
+echo "export WORKON_HOME=~/Env" >> ~/.bashrc 
+echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc 
+
+ 
+
+source ~/.bashrc 

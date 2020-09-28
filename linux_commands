@@ -1,0 +1,17 @@
+DOWNLOAD:
+axel -a -n [Num_of_Thread] link1 link2 link3
+
+FUNCIONAR SNAP MINT:
+sudo rm /etc/apt/preferences.d/nosnap.pref
+
+VER PORTAS EM USO: 
+sudo netstat -tlpn | grep 8080 
+
+VER PROCESSOS:
+top 
+
+MATAR PROCESSOS:  
+Kill <PID> 
+
+DESINSTALAR: 
+sudo dpkg -r 

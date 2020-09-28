@@ -1,0 +1,8 @@
+RUN: 
+uwsgi --socket mysite.sock --module Core.wsgi --chmod-socket=664 
+
+RESTART NGINX:
+sudo /etc/init.d/nginx restart 
+
+RUN PROCCESS: 
+uwsgi --ini uwsgi.ini 

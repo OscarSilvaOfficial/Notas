@@ -1,0 +1,26 @@
+ERRO DE ADD TABELAS POR CHARACTER-SET: 
+ALTER DATABASE 'databasename' CHARACTER SET utf8; 
+
+ALTERAR SENHA DE USUÁRIO: 
+use mysql; 
+update user set password=PASSWORD("Kaka25780") where User="intranet"; 
+flush privileges; 
+
+GERAR DUMP:
+mysqldump -uintranet -p'0sc@r@%&*)' --all-databases >05-02-2020.sql;
+
+RESTART SERVIÇO:
+service mysqld restart ;
+
+DROPAR TABELAS COM FK:
+SET foreign_key_checks = 0; 
+SET SQL_SAFE_UPDATES = 0; 
+
+DEBIAN | UBUNTU | MINT
+apt-get install python3-dev libmysqlclient-dev 
+sudo apt-get install python3-mysqldb libmysqlclient-dev python-dev 
+sudo apt-get install python-dev default-libmysqlclient-dev 
+
+CENTOS
+yum install mariadb-devel gcc python36u-devel 
+sudo yum install python36-devel 

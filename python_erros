@@ -1,0 +1,2 @@
+RESOLVER PROBLEMAS APÓS EXCLUIR MIGRAÇÕES:
+python manage.py migrate --fake <app_NAME> 0001_initial 
