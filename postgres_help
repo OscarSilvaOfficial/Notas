@@ -1,0 +1,10 @@
+ACESSAR COMO SUDO:
+sudo -i -u postgres
+
+ACESSAR O SGDB:
+psql
+
+CRIAR DB:
+CREATE DATABASE name_db
+
+
