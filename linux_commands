@@ -15,3 +15,8 @@ Kill <PID>
 
 DESINSTALAR: 
 sudo dpkg -r 
+
+RUN CELERY:
+celery -A consumidor worker --loglevel=INFO
+
+
